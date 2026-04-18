@@ -1,0 +1,21 @@
+{
+    "name": "enlivenapp/flight-csrf",
+    "description": "CSRF protection middleware and helpers for FlightPHP",
+    "type": "flightphp-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "enlivenapp",
+            "email": "mw@enlivenapp.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "enlivenapp/flight-school": "^0.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Enlivenapp\\FlightCsrf\\": "src/"
+        }
+    }
+}
