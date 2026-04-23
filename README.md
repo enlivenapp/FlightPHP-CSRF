@@ -1,3 +1,9 @@
+[![Version](http://poser.pugx.org/enlivenapp/flight-csrf/version)](https://packagist.org/packages/enlivenapp/flight-csrf)
+[![License](http://poser.pugx.org/enlivenapp/flight-csrf/license)](https://packagist.org/packages/enlivenapp/flight-csrf)
+[![Suggesters](http://poser.pugx.org/enlivenapp/flight-csrf/suggesters)](https://packagist.org/packages/enlivenapp/flight-csrf)
+[![PHP Version Require](http://poser.pugx.org/enlivenapp/flight-csrf/require/php)](https://packagist.org/packages/enlivenapp/flight-csrf)
+[![Monthly Downloads](https://poser.pugx.org/enlivenapp/flight-csrf/d/monthly)](https://packagist.org/packages/enlivenapp/flight-csrf)
+
 # flight-csrf
 
 CSRF protection middleware and helpers for [FlightPHP](https://flightphp.com), built for the [flight-school](https://github.com/enlivenapp/flight-school) plugin system.
