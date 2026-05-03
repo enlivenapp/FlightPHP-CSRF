@@ -1,10 +1,17 @@
-[![Version](http://poser.pugx.org/enlivenapp/flight-csrf/version)](https://packagist.org/packages/enlivenapp/flight-csrf)
-[![License](http://poser.pugx.org/enlivenapp/flight-csrf/license)](https://packagist.org/packages/enlivenapp/flight-csrf)
-[![Suggesters](http://poser.pugx.org/enlivenapp/flight-csrf/suggesters)](https://packagist.org/packages/enlivenapp/flight-csrf)
-[![PHP Version Require](http://poser.pugx.org/enlivenapp/flight-csrf/require/php)](https://packagist.org/packages/enlivenapp/flight-csrf)
-[![Monthly Downloads](https://poser.pugx.org/enlivenapp/flight-csrf/d/monthly)](https://packagist.org/packages/enlivenapp/flight-csrf)
+[![Stable? Not Quite Yet](https://img.shields.io/badge/stable%3F-not%20quite%20yet-blue?style=for-the-badge)](https://packagist.org/packages/enlivenapp/flight-csrf)
+[![License](https://img.shields.io/packagist/l/enlivenapp/flight-csrf?style=for-the-badge)](https://packagist.org/packages/enlivenapp/flight-csrf)
+[![PHP Version](https://img.shields.io/packagist/php-v/enlivenapp/flight-csrf?style=for-the-badge)](https://packagist.org/packages/enlivenapp/flight-csrf)
+[![Monthly Downloads](https://img.shields.io/packagist/dm/enlivenapp/flight-csrf?style=for-the-badge)](https://packagist.org/packages/enlivenapp/flight-csrf)
+[![Total Downloads](https://img.shields.io/packagist/dt/enlivenapp/flight-csrf?style=for-the-badge)](https://packagist.org/packages/enlivenapp/flight-csrf)
+[![GitHub Issues](https://img.shields.io/github/issues/enlivenapp/FlightPHP-CSRF?style=for-the-badge)](https://github.com/enlivenapp/FlightPHP-CSRF/issues)
+[![Contributors](https://img.shields.io/github/contributors/enlivenapp/FlightPHP-CSRF?style=for-the-badge)](https://github.com/enlivenapp/FlightPHP-CSRF/graphs/contributors)
+[![Latest Release](https://img.shields.io/github/v/release/enlivenapp/FlightPHP-CSRF?style=for-the-badge)](https://github.com/enlivenapp/FlightPHP-CSRF/releases)
+[![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-blue?style=for-the-badge)](https://github.com/enlivenapp/FlightPHP-CSRF/pulls)
+
 
 # flight-csrf
+
+**I noticed folks downloading some of these packages. I'm super grateful, Thank You!  I would like to let folks know until this notice disappears I'm doing a lot of breaking changes without worrying about them.  Once versions are up around 0.5.x things should settle down.**
 
 CSRF protection middleware and helpers for [FlightPHP](https://flightphp.com), built for the [flight-school](https://github.com/enlivenapp/flight-school) plugin system.
 

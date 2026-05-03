@@ -12,6 +12,12 @@ namespace Enlivenapp\FlightCsrf\Middlewares;
 
 use flight\Engine;
 
+/**
+ * CSRF protection middleware.
+ *
+ * Validates a CSRF token on state-changing requests (POST, PUT, PATCH, DELETE).
+ * Expects the token in a POST field or the X-CSRF-TOKEN header.
+ */
 class CsrfMiddleware
 {
     protected Engine $app;
@@ -21,6 +27,11 @@ class CsrfMiddleware
         $this->app = $app;
     }
 
+    /**
+     * Validate the CSRF token before the request is handled.
+     *
+     * @return void
+     */
     public function before(): void
     {
         $config = $this->app->get('enlivenapp.flight-csrf') ?? [];
